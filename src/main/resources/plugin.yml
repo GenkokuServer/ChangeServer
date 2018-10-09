@@ -1,0 +1,19 @@
+name: ChangeServer
+version: 1.0
+description: A simple plugin for changing the server without the bugee command.
+author: tomo1560
+
+main: city.genkoku.changeserver.ChangeServer
+
+commands:
+  changeserver:
+    description: Switching of server.
+permissions:
+  changeserver.use:
+    description: Allow switching to other servers.
+    default: op
+  changeserver.use.other:
+    description: Allow you to switch other players to other servers.
+    default: op
+
+
